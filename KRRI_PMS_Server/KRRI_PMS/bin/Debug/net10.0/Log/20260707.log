@@ -1,0 +1,16 @@
+[2026-07-07 09:15:42.290] [Info] [PMS_Server] [PmsServerStarted] [IniRead] Read ini file successful.
+[2026-07-07 09:15:42.934] [Info] [PMS_Common] [DBManager] [Open] DataBase connection successful. DB Name: Researcher_PMS_v1
+[2026-07-07 09:15:42.944] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
+[2026-07-07 09:15:42.948] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.
+[2026-07-07 09:16:24.392] [Info] [PMS_Server] [PmsServerStarted] [IniRead] Read ini file successful.
+[2026-07-07 09:16:25.080] [Info] [PMS_Common] [DBManager] [Open] DataBase connection successful. DB Name: Researcher_PMS_v1
+[2026-07-07 09:16:25.098] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
+[2026-07-07 09:16:25.106] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.
+[2026-07-07 13:03:32.352] [Info] [PMS_Server] [PmsServerStarted] [IniRead] Read ini file successful.
+[2026-07-07 13:03:33.349] [Info] [PMS_Common] [DBManager] [Open] DataBase connection successful. DB Name: Researcher_PMS_v1
+[2026-07-07 13:03:33.412] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
+[2026-07-07 13:03:33.424] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.
+[2026-07-07 13:05:48.114] [Info] [PMS_Server] [PmsServerStarted] [IniRead] Read ini file successful.
+[2026-07-07 13:05:48.970] [Info] [PMS_Common] [DBManager] [Open] Database connection successful.
+[2026-07-07 13:05:48.982] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
+[2026-07-07 13:05:48.985] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.

@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_client\\pms_client\\pms_ui\\pms_login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|solutionrelative:pms_client\\pms_ui\\pms_login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_client\\pms_client\\operation\\loginoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|solutionrelative:pms_client\\operation\\loginoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_client\\pms_common\\tcpmanager\\tcpclientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\tcpmanager\\tcpclientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_client\\pms_client\\pms_ui\\pms_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|solutionrelative:pms_client\\pms_ui\\pms_login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\obj\\Debug\\net10.0-windows\\PMS_UI\\PMS_Login.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PMS_Client\\obj\\Debug\\net10.0-windows\\PMS_UI\\PMS_Login.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_client\\pms_client\\operation\\pmsclientstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2C6B86-047F-F984-C6AC-F25E7C1BCF19}|PMS_Client\\PMS_Client.csproj|solutionrelative:pms_client\\operation\\pmsclientstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_client\\pms_common\\variable\\inivariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\variable\\inivariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PMS_Login.xaml",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\PMS_UI\\PMS_Login.xaml",
+              "RelativeDocumentMoniker": "PMS_Client\\PMS_UI\\PMS_Login.xaml",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\PMS_UI\\PMS_Login.xaml",
+              "RelativeToolTip": "PMS_Client\\PMS_UI\\PMS_Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T06:22:05.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PMS_Login.g.i.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\obj\\Debug\\net10.0-windows\\PMS_UI\\PMS_Login.g.i.cs",
+              "RelativeDocumentMoniker": "PMS_Client\\obj\\Debug\\net10.0-windows\\PMS_UI\\PMS_Login.g.i.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\obj\\Debug\\net10.0-windows\\PMS_UI\\PMS_Login.g.i.cs",
+              "RelativeToolTip": "PMS_Client\\obj\\Debug\\net10.0-windows\\PMS_UI\\PMS_Login.g.i.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAjwJgAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:21:19.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PMS_Login.xaml.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\PMS_UI\\PMS_Login.xaml.cs",
+              "RelativeDocumentMoniker": "PMS_Client\\PMS_UI\\PMS_Login.xaml.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\PMS_UI\\PMS_Login.xaml.cs",
+              "RelativeToolTip": "PMS_Client\\PMS_UI\\PMS_Login.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T08:55:15.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TcpClientManager.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Common\\TCPManager\\TcpClientManager.cs",
+              "RelativeDocumentMoniker": "PMS_Common\\TCPManager\\TcpClientManager.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Common\\TCPManager\\TcpClientManager.cs",
+              "RelativeToolTip": "PMS_Common\\TCPManager\\TcpClientManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T08:54:13.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PmsClientStart.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\Operation\\PmsClientStart.cs",
+              "RelativeDocumentMoniker": "PMS_Client\\Operation\\PmsClientStart.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\Operation\\PmsClientStart.cs",
+              "RelativeToolTip": "PMS_Client\\Operation\\PmsClientStart.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T00:15:36.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "iniVariable.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Common\\Variable\\iniVariable.cs",
+              "RelativeDocumentMoniker": "PMS_Common\\Variable\\iniVariable.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Common\\Variable\\iniVariable.cs",
+              "RelativeToolTip": "PMS_Common\\Variable\\iniVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T05:54:57.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginOperation.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\Operation\\LoginOperation.cs",
+              "RelativeDocumentMoniker": "PMS_Client\\Operation\\LoginOperation.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Client\\PMS_Client\\Operation\\LoginOperation.cs",
+              "RelativeToolTip": "PMS_Client\\Operation\\LoginOperation.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T08:54:46.933Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

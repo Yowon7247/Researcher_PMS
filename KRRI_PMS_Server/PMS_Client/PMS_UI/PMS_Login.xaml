@@ -1,0 +1,42 @@
+﻿<Window x:Class="PMS_Client.PMS_UI.PMS_Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PMS_Client.PMS_UI"
+        mc:Ignorable="d"
+        Title="PMS_Login" Height="800" Width="500">
+    <Grid>
+        <Label Content="ID" HorizontalAlignment="Left" Height="40" Margin="115,364,0,0" VerticalAlignment="Top" Width="50" FontSize="20"/>
+        <Label Content="PW" HorizontalAlignment="Left" Height="40" Margin="115,424,0,0" VerticalAlignment="Top" Width="50" FontSize="20"/>
+        <Border HorizontalAlignment="Left"
+Margin="165,364,0,0"
+VerticalAlignment="Top"
+Width="224"
+Height="40"
+BorderBrush="Black"
+BorderThickness="0,0,0,1">
+            <TextBox Text=""
+     BorderThickness="0"
+     Background="Transparent"
+     FontSize="16"
+     Foreground="#B2000000"
+     VerticalContentAlignment="Center"/>
+        </Border>
+
+        <Border HorizontalAlignment="Left"
+Margin="165,424,0,0"
+VerticalAlignment="Top"
+Width="224"
+Height="40"
+BorderBrush="Black"
+BorderThickness="0,0,0,1">
+            <PasswordBox BorderThickness="0"
+         Background="Transparent"
+         FontSize="16"
+         VerticalContentAlignment="Center"/>
+        </Border>
+        <Button Content="로그인" Margin="115,497,111,234" Background="#FF015AAA" Foreground="White" FontSize="20"/>
+        <Image HorizontalAlignment="Left" Height="196" Margin="115,130,0,0" VerticalAlignment="Top" Width="274" Source="/Resources/KRRI_Logo.jpg"/>
+    </Grid>
+</Window>

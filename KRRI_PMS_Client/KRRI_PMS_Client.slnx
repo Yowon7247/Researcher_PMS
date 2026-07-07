@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PMS_Client/PMS_Client.csproj" />
+  <Project Path="PMS_Common/PMS_Common.csproj" />
+</Solution>

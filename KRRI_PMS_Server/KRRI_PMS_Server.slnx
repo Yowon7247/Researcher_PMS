@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KRRI_PMS/PMS_Server.csproj" />
+  <Project Path="PMS_Common/PMS_Common.csproj" />
+</Solution>
