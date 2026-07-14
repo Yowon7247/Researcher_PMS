@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\dispatcher\\serverpacketdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\dispatcher\\serverpacketdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\handler\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\handler\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\pmsserverstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\pmsserverstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\pms_common\\tcpmanager\\tcpservermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\tcpmanager\\tcpservermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\pms_common\\databasemanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\databasemanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\pms_common\\logmanager\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\logmanager\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\pms_common\\header\\packetheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,32 +39,8 @@
       "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\databasemanager\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\model\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\model\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\pmsserverstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\pmsserverstarted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\usermanagement\\clientsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\usermanagement\\clientsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\pms_common\\databasemanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\databasemanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\dispatcher\\serverpacketdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|solutionrelative:krri_pms\\dispatcher\\serverpacketdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\pms_common\\tcpmanager\\tcpservermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3762BDFC-FB3B-A4BA-5D0D-9CFA4EB7FB13}|PMS_Common\\PMS_Common.csproj|solutionrelative:pms_common\\tcpmanager\\tcpservermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E53A91B-7EEC-048B-8719-2925E807BC97}|KRRI_PMS\\PMS_Server.csproj|c:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC pms \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\krri_pms_server\\krri_pms\\usermanagement\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,31 +59,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DBHelper.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBHelper.cs",
-              "RelativeDocumentMoniker": "PMS_Common\\DataBaseManager\\DBHelper.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBHelper.cs",
-              "RelativeToolTip": "PMS_Common\\DataBaseManager\\DBHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Handler\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "KRRI_PMS\\Handler\\LoginHandler.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Handler\\LoginHandler.cs",
+              "RelativeToolTip": "KRRI_PMS\\Handler\\LoginHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-07T02:35:44.511Z",
+              "WhenOpened": "2026-07-06T08:53:32.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerPacketDispatcher.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
+              "RelativeDocumentMoniker": "KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
+              "RelativeToolTip": "KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:47:18.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PmsServerStarted.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\PmsServerStarted.cs",
+              "RelativeDocumentMoniker": "KRRI_PMS\\PmsServerStarted.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\PmsServerStarted.cs",
+              "RelativeToolTip": "KRRI_PMS\\PmsServerStarted.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAApwE0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:33:19.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TcpServerManager.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\TCPManager\\TcpServerManager.cs",
+              "RelativeDocumentMoniker": "PMS_Common\\TCPManager\\TcpServerManager.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\TCPManager\\TcpServerManager.cs",
+              "RelativeToolTip": "PMS_Common\\TCPManager\\TcpServerManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwDMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T08:23:37.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "KRRI_PMS\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Repository\\UserRepository.cs",
               "RelativeToolTip": "KRRI_PMS\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-07T00:26:05.529Z"
+              "WhenOpened": "2026-07-07T00:26:05.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBManager.cs",
+              "RelativeDocumentMoniker": "PMS_Common\\DataBaseManager\\DBManager.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBManager.cs",
+              "RelativeToolTip": "PMS_Common\\DataBaseManager\\DBManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T00:22:51.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\LogManager\\LogManager.cs",
+              "RelativeDocumentMoniker": "PMS_Common\\LogManager\\LogManager.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\LogManager\\LogManager.cs",
+              "RelativeToolTip": "PMS_Common\\LogManager\\LogManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T08:42:08.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserInfo.cs",
               "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Model\\UserInfo.cs",
               "RelativeDocumentMoniker": "KRRI_PMS\\Model\\UserInfo.cs",
@@ -95,56 +161,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBManager.cs",
-              "RelativeDocumentMoniker": "PMS_Common\\DataBaseManager\\DBManager.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBManager.cs",
-              "RelativeToolTip": "PMS_Common\\DataBaseManager\\DBManager.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-07T00:22:51.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginHandler.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Handler\\LoginHandler.cs",
-              "RelativeDocumentMoniker": "KRRI_PMS\\Handler\\LoginHandler.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Handler\\LoginHandler.cs",
-              "RelativeToolTip": "KRRI_PMS\\Handler\\LoginHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T08:53:32.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClientSession.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\UserManagement\\ClientSession.cs",
-              "RelativeDocumentMoniker": "KRRI_PMS\\UserManagement\\ClientSession.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\UserManagement\\ClientSession.cs",
-              "RelativeToolTip": "KRRI_PMS\\UserManagement\\ClientSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T06:54:03.933Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ServerPacketDispatcher.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
-              "RelativeDocumentMoniker": "KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
-              "RelativeToolTip": "KRRI_PMS\\Dispatcher\\ServerPacketDispatcher.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAhwBkAAAAcAAAAAAAAAA==",
+              "Title": "DBHelper.cs",
+              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBHelper.cs",
+              "RelativeDocumentMoniker": "PMS_Common\\DataBaseManager\\DBHelper.cs",
+              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\DataBaseManager\\DBHelper.cs",
+              "RelativeToolTip": "PMS_Common\\DataBaseManager\\DBHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T06:47:18.981Z"
+              "WhenOpened": "2026-07-07T02:35:44.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "PacketHeader.cs",
               "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\Header\\PacketHeader.cs",
               "RelativeDocumentMoniker": "PMS_Common\\Header\\PacketHeader.cs",
@@ -152,32 +181,7 @@
               "RelativeToolTip": "PMS_Common\\Header\\PacketHeader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T06:35:38.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PmsServerStarted.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\PmsServerStarted.cs",
-              "RelativeDocumentMoniker": "KRRI_PMS\\PmsServerStarted.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\KRRI_PMS\\PmsServerStarted.cs",
-              "RelativeToolTip": "KRRI_PMS\\PmsServerStarted.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAmwFgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T06:33:19.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TcpServerManager.cs",
-              "DocumentMoniker": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\TCPManager\\TcpServerManager.cs",
-              "RelativeDocumentMoniker": "PMS_Common\\TCPManager\\TcpServerManager.cs",
-              "ToolTip": "C:\\\uC774\uC694\uC6D0\\\uC5F0\uAD6C\uC6D0 \uAD00\uB9AC PMS \uD1A0\uC774\uD504\uB85C\uC81D\uD2B8\\KRRI_PMS_Server\\PMS_Common\\TCPManager\\TcpServerManager.cs",
-              "RelativeToolTip": "PMS_Common\\TCPManager\\TcpServerManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T08:23:37.519Z"
+              "WhenOpened": "2026-07-06T06:35:38.093Z"
             },
             {
               "$type": "Document",

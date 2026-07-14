@@ -1,9 +1,11 @@
-﻿using System;
+﻿using PMS_Common.Header;
+using PMS_Common.LogManager;
+using PMS_Common.Network;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using PMS_Common.LogManager;
 
 namespace PMS_Common.TCPManager
 {
@@ -11,7 +13,7 @@ namespace PMS_Common.TCPManager
     {
         private TcpListener? listener;
 
-        public async Task StartAsync(int port)
+        public async Task StartAsync(int port, Func<TcpClient, PacketHeader, byte[], NetworkStream, Task> packetHandler)
         {
             try
             {
@@ -25,7 +27,7 @@ namespace PMS_Common.TCPManager
                 {
                     TcpClient client = await listener.AcceptTcpClientAsync();
 
-                    _ = Task.Run(() => HandleClient(client));
+                    _ = Task.Run(() => HandleClient(client, packetHandler));
                 }
             }
             catch(Exception ex)
@@ -34,36 +36,40 @@ namespace PMS_Common.TCPManager
             }
         }
 
-        private async Task HandleClient(TcpClient client)
+        private async Task HandleClient(TcpClient client, Func<TcpClient, PacketHeader, byte[], NetworkStream, Task> packetHandler)
         {
-            Console.WriteLine("PMS_Client Connected");
-            LogManager.LogManager.Info("PMS_Common", "PMS_Client Connected");
-
             NetworkStream stream = client.GetStream();
-
-            byte[] buffer = new byte[4096];
 
             while (true)
             {
-                int size = await stream.ReadAsync(buffer);
+                byte[] headerBuffer =
+                    await ReadExactAsync(stream, 12);
 
-                if (size == 0)
-                    break;
+                PacketHeader header = PacketSerializer.DeserializeHeader(headerBuffer);
 
-                ushort packetType =BitConverter.ToUInt16(buffer, 0);
+                byte[] bodyBuffer = await ReadExactAsync(stream, header.BodySize);
 
-                int bodySize =
-                    BitConverter.ToInt32(buffer, 2);
+                await packetHandler(client, header, bodyBuffer, stream);
+            }
+        }
 
-                string body =
-                    Encoding.UTF8.GetString(buffer, 6, bodySize);
+        private static async Task<byte[]> ReadExactAsync(NetworkStream stream, int length)
+        {
+            byte[] buffer = new byte[length];
 
-                byte[] send = Encoding.UTF8.GetBytes("OK");
+            int offset = 0;
 
-                await stream.WriteAsync(send);
+            while (offset < length)
+            {
+                int read = await stream.ReadAsync(buffer, offset, length - offset);
+
+                if (read == 0)
+                    throw new IOException("Client disconnected.");
+
+                offset += read;
             }
 
-            client.Close();
+            return buffer;
         }
     }
 }

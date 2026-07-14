@@ -28,3 +28,4 @@ C:\이요원\연구원 관리 PMS 토이프로젝트\KRRI_PMS_Client\PMS_Common\
 C:\이요원\연구원 관리 PMS 토이프로젝트\KRRI_PMS_Client\PMS_Common\obj\Debug\net10.0\refint\PMS_Common.dll
 C:\이요원\연구원 관리 PMS 토이프로젝트\KRRI_PMS_Client\PMS_Common\obj\Debug\net10.0\PMS_Common.pdb
 C:\이요원\연구원 관리 PMS 토이프로젝트\KRRI_PMS_Client\PMS_Common\obj\Debug\net10.0\ref\PMS_Common.dll
+C:\이요원\연구원 관리 PMS 토이프로젝트\KRRI_PMS_Client\PMS_Common\obj\Debug\net10.0\PMS_Common.sourcelink.json

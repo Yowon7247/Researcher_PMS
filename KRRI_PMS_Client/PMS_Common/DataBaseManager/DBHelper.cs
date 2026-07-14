@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
+﻿using System.Data;
 using MySqlConnector;
 
 namespace PMS_Common.DataBaseManager
@@ -15,11 +12,9 @@ namespace PMS_Common.DataBaseManager
             _dbManager = dbManager;
         }
 
-        // SELECT
         public DataTable ExecuteQuery(string sql, Dictionary<string, object>? parameters = null)
         {
-            using var conn = _dbManager.GetConnection();
-            conn.Open();
+            using var conn = _dbManager.CreateConnection();
 
             using var cmd = new MySqlCommand(sql, conn);
 
@@ -31,20 +26,18 @@ namespace PMS_Common.DataBaseManager
                 }
             }
 
-            using var adapter = new MySqlDataAdapter(cmd);
+            using var reader = cmd.ExecuteReader();
 
             DataTable table = new DataTable();
 
-            adapter.Fill(table);
+            table.Load(reader);
 
             return table;
         }
 
-        // INSERT / UPDATE / DELETE
         public int ExecuteNonQuery(string sql, Dictionary<string, object>? parameters = null)
         {
-            using var conn = _dbManager.GetConnection();
-            conn.Open();
+            using var conn = _dbManager.CreateConnection();
 
             using var cmd = new MySqlCommand(sql, conn);
 
@@ -59,11 +52,9 @@ namespace PMS_Common.DataBaseManager
             return cmd.ExecuteNonQuery();
         }
 
-        // 단일 값 조회
         public object? ExecuteScalar(string sql, Dictionary<string, object>? parameters = null)
         {
-            using var conn = _dbManager.GetConnection();
-            conn.Open();
+            using var conn = _dbManager.CreateConnection();
 
             using var cmd = new MySqlCommand(sql, conn);
 

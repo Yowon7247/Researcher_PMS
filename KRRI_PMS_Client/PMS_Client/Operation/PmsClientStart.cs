@@ -1,4 +1,5 @@
-﻿using PMS_Common.DataBaseManager;
+﻿using PMS_Client.Dispatcher;
+using PMS_Common.DataBaseManager;
 using PMS_Common.iniReader;
 using PMS_Common.LogManager;
 using PMS_Common.TCPManager;
@@ -26,7 +27,9 @@ namespace PMS_Client.Operation
             //DBConnect();
 
             // TCP 연결은 비동기적으로 수행
-            _ = Task.Run(() => _tcp.ConnectAsync(iniVariable.socketIP, int.Parse(iniVariable.socketPort)));
+            //_ = Task.Run(() => _tcp.ConnectAsync(iniVariable.socketIP, int.Parse(iniVariable.socketPort)));
+
+            _ = TCPConnect(_tcp);
 
             LogManager.Info("PMS_Client", "PMS Client has been executed.");
         }
@@ -53,32 +56,43 @@ namespace PMS_Client.Operation
             }
         }
 
-        private void DBConnect()
-        {
-            // Database connection logic here
-            DBConfig config = new DBConfig()
-            {
-                Server = iniVariable.dbIP,
-                Port = Int32.Parse(iniVariable.dbPort),
-                Database = iniVariable.dbName,
-                User = iniVariable.dbUser,
-                Password = iniVariable.dbPassword
-            };
+        //private void DBConnect()
+        //{
+        //    // Database connection logic here
+        //    DBConfig config = new DBConfig()
+        //    {
+        //        Server = iniVariable.dbIP,
+        //        Port = Int32.Parse(iniVariable.dbPort),
+        //        Database = iniVariable.dbName,
+        //        User = iniVariable.dbUser,
+        //        Password = iniVariable.dbPassword
+        //    };
 
-            DBManager db = new DBManager(config);
+        //    DBManager db = new DBManager(config);
 
-            bool result = db.Open();
+        //    bool result = db.Open();
 
-        }
+        //}
 
-        private async Task TCPConnect()
+        private async Task TCPConnect(TcpClientManager tcp)
         {
             try
             {
-                // TCP connection logic here
-                TcpServerManager serverTcp = new TcpServerManager();
+                try
+                {
+                    // 1. 서버 연결 완료까지 기다림
+                    await tcp.ConnectAsync(iniVariable.socketIP, int.Parse(iniVariable.socketPort));
 
-                await serverTcp.StartAsync(Int32.Parse(iniVariable.socketPort));
+                    // 2. Dispatcher 생성
+                    ClientPacketDispatcher dispatcher = new();
+
+                    // 3. 수신루프 시작
+                    _ = Task.Run(() => tcp.ReceiveLoopAsync(dispatcher.DispatchAsync));
+                }
+                catch (Exception ex)
+                {
+                    LogManager.Error("PMS_Client", ex.ToString());
+                }
             }
             catch (Exception ex)
             {

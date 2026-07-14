@@ -14,3 +14,11 @@
 [2026-07-07 13:05:48.970] [Info] [PMS_Common] [DBManager] [Open] Database connection successful.
 [2026-07-07 13:05:48.982] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
 [2026-07-07 13:05:48.985] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.
+[2026-07-07 17:26:48.109] [Info] [PMS_Server] [PmsServerStarted] [IniRead] Read ini file successful.
+[2026-07-07 17:26:48.699] [Info] [PMS_Common] [DBManager] [Open] Database connection successful.
+[2026-07-07 17:26:48.707] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
+[2026-07-07 17:26:48.711] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.
+[2026-07-07 17:40:32.109] [Info] [PMS_Server] [PmsServerStarted] [IniRead] Read ini file successful.
+[2026-07-07 17:40:32.602] [Info] [PMS_Common] [DBManager] [Open] Database connection successful.
+[2026-07-07 17:40:32.611] [Info] [PMS_Common] [TcpServerManager] [StartAsync] PMS_Server Running for TCP : 9000
+[2026-07-07 17:40:32.615] [Info] [PMS_Server] [PmsServerStarted] [PmsStart] PMS Server has been executed.

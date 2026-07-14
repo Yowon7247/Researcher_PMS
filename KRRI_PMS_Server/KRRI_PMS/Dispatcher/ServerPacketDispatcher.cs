@@ -35,11 +35,10 @@ namespace PMS_Server.Dispatcher
                 // 회원가입
                 case PacketType.JoinRequest:
                     {
-                        // JoinRequest request =
-                        //      JsonSerializer.Deserialize<JoinRequest>(body);
-                        //
-                        // JoinHandler handler = new JoinHandler();
-                        // await handler.ProcessAsync(header, request, stream);
+                        JoinRequest request = PacketSerializer.DeserializeBody<JoinRequest>(body, header);
+
+                        JoinHandler handler = new JoinHandler();
+                         await handler.ProcessAsync(header, request, stream);
 
                         break;
                     }

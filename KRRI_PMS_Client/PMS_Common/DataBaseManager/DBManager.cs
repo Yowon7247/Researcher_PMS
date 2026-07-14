@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using MySqlConnector;
-using PMS_Common.LogManager;
+﻿using MySqlConnector;
 
 namespace PMS_Common.DataBaseManager
 {
@@ -21,23 +17,39 @@ namespace PMS_Common.DataBaseManager
                 $"Charset=utf8mb4;";
         }
 
-        public MySqlConnection GetConnection()
+        /// <summary>
+        /// 새로운 DB Connection을 생성하여 Open한 후 반환합니다.
+        /// </summary>
+        public MySqlConnection CreateConnection()
         {
-            return new MySqlConnection(_connectionString);
+            MySqlConnection conn = new MySqlConnection(_connectionString);
+
+            conn.Open();
+
+            return conn;
         }
 
+        /// <summary>
+        /// DB 연결 테스트
+        /// </summary>
         public bool Open()
         {
             try
             {
-                using var conn = GetConnection();
-                conn.Open();
-                LogManager.LogManager.Info("PMS_Common", "DataBase connection successful. DB Name: Researcher_PMS_v1");
+                using var conn = CreateConnection();
+
+                LogManager.LogManager.Info(
+                    "PMS_Common",
+                    "Database connection successful.");
+
                 return true;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                LogManager.LogManager.Error("PMS_Common", ex.ToString());
+                LogManager.LogManager.Error(
+                    "PMS_Common",
+                    ex.ToString());
+
                 return false;
             }
         }
