@@ -9,7 +9,5 @@ namespace PMS_Common.iniReader
         public static string Socket = "Socket";
 
         public static string DB = "Database";
-
-        public static string Admin = "AdminAddress";
     }
 }

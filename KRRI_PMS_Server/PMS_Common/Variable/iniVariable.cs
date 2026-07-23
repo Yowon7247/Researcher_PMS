@@ -13,7 +13,5 @@ namespace PMS_Common.Variable
         public static string dbUser;
         public static string dbPassword;
         public static string dbName;
-        public static string AUserID;
-        public static string APassword;
     }
 }

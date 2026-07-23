@@ -41,8 +41,6 @@ namespace PMS_Server
                 iniVariable.dbUser = ir.Read(iniSection.DB, "User");
                 iniVariable.dbPassword = ir.Read(iniSection.DB, "Password");
                 iniVariable.dbName = ir.Read(iniSection.DB, "DatabaseName");
-                iniVariable.AUserID = ir.Read(iniSection.Admin, "UserID");
-                iniVariable.APassword = ir.Read(iniSection.Admin, "Password");
 
                 LogManager.Info("PMS_Server", "Read ini file successful.");
             }

@@ -3,9 +3,8 @@ using PMS_Server.Model;
 using PMS_Common.Header;
 using PMS_Common.Packets;
 using System.Net.Sockets;
-using PMS_Common.Variable;
+using PMS_Common.LogManager;
 using PMS_Common.Network;
-
 
 namespace PMS_Server.Handler
 {
@@ -15,41 +14,22 @@ namespace PMS_Server.Handler
         {
             LoginResponse response = new();
 
-            //----------------------------------------------------
-            // 관리자 로그인
-            //----------------------------------------------------
-            if (request.ID == iniVariable.AUserID &&
-                request.PW == iniVariable.APassword)
+            UserRepository repository = new(ServerContext.DB);
+
+            UserInfo? user = repository.Login(request.ID, request.PW);
+
+            if (user != null)
             {
                 response.Success = true;
-                response.IsAdmin = true;
-                response.UserName = "관리자";
-                response.Message = "관리자 로그인";
+                response.IsAdmin = user.IsAdmin;
+                response.UserName = user.UserName;
+                response.Message = user.IsAdmin ? "관리자 로그인" : "로그인 성공";
             }
             else
             {
-                //------------------------------------------------
-                // 일반 사용자 조회
-                //------------------------------------------------
-
-                UserRepository repository = new(ServerContext.DB);
-
-                UserInfo? user =
-                    repository.Login(request.ID, request.PW);
-
-                if (user != null)
-                {
-                    response.Success = true;
-                    response.IsAdmin = false;
-                    response.UserName = user.UserName;
-                    response.Message = "로그인 성공";
-                }
-                else
-                {
-                    response.Success = false;
-                    response.IsAdmin = false;
-                    response.Message = "아이디 또는 비밀번호를 확인하세요.";
-                }
+                response.Success = false;
+                response.IsAdmin = false;
+                response.Message = "아이디 또는 비밀번호를 확인하세요.";
             }
 
             byte[] packet =
